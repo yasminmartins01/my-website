@@ -10,38 +10,42 @@
 <body>
     <div class="nav">
         <ul>
-            <li> Home </li>
-            <li> About </li>
-            <li> Skills </li>
-            <li> My work </li>
-            <li> Contact </li>
+            <li><a href="#home"> Home </a></li>
+            <li><a href="#about"> About </a></li>
+            <li><a href="#skills"> Skills </a></li>
+            <li><a href="#proyects"> Proyects </a></li>
+            <li><a href="#contact"> Contact </a></li>
         </ul>
     </div>
-    <div class="header">
+    <div class="header" id="home">
         <div class="text">   
-    <p> My name is julian medina </p>
-    <p> i'm a fullstack developer from buenos aires, argentina. </p>
+    <p class="title"> My name is julian medina </p>
+    <p class="p"> i'm a fullstack developer from buenos aires, argentina. </p>
    </div>
-    <img src="https://img2.freepng.es/20180620/svr/kisspng-computer-mouse-computer-icons-clip-art-computadora-5b2a7299330914.5298956515295085052091.jpg" alt="img"/>
+    <img src="https://cdn.dribbble.com/users/2129110/screenshots/5311754/media/5cfb84cafdaed3f7f23af1a455094c35.jpg?compress=1&resize=1000x750&vertical=top"/>
     </div>
-    <img class="about">
-        <p>  estoy haciendo la diplomatura en ciencia de datos
+    <div class="about" id="about">
+        <img src="https://cdn.dribbble.com/users/331579/screenshots/3825336/lap_drib.jpg?compress=1&resize=800x600&vertical=top" alt="image2"/>
+        <div class="text2">
+        <p>  Estoy haciendo la diplomatura en ciencia de datos
              e inteligencia artificial en la Universidad Nacional
               de San Martin, y en Codo a Codo el curso de Fullstack en Python. </p>
-    </img>
+        </div>
     </div>
-    <div class="skills">
-        <div> Html5 </div>
-        <div> Css3 </div>
-        <div> Javascript </div>
-        <div> Phyton </div>
+    <div class="skills" id="skills">
+        <p class="title"> My skills </p>
+        <div class="one"> Html5 </div>
+        <div class="two"> Css3 </div>
+        <div class="three"> Javascript </div>
+        <div class="four"> Phyton </div>
     </div>
-    <div class="work">
-        <button> Proyect </button>
-        <button> Proyect </button>
-        <button> Proyect </button>
+    <div class="work" id="proyects">
+        <p class="title"> My Proyects </p>
+        <button class="btn"> Proyect </button>
+        <button class="btn"> Proyect </button>
+        <button class="btn"> Proyect </button>
     </div>
-    <div class="contact" method="POST">
+    <div class="contact" id="contact">
         <form>
             <input id="name" placeholder="name"/>
             <input id="email" placeholder="email"/>
